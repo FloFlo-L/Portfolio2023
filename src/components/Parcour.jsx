@@ -14,7 +14,7 @@ const Qualifications = () => {
     setParcour('false')
   }
   return (
-    <section className={theme ? 'qualification section' : 'qualification section dark'}>
+    <section className={theme ? 'qualification section' : 'qualification section dark'} id="parcour">
         <h2 className={theme ? 'section__title' : 'section__title dark'}>Mon parcour</h2>
 
         <div className="qualification__container container">

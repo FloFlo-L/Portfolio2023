@@ -20,7 +20,7 @@ const Skills = () => {
     }
 
   return (
-    <section className={theme ? 'skills section' : 'skills section dark'}>
+    <section className={theme ? 'skills section' : 'skills section dark'} id="competences">
         <h2 className={theme ? 'section__title' : 'section__title dark'}>Mes compétences</h2>
 
         <div className="skills__container container grid">

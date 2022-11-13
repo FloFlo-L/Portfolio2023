@@ -20,7 +20,7 @@ const Portfolio = () => {
     const {theme} = useContext(ThemeContext)
     
   return (
-    <section className={theme ? 'portfolio section' : 'portfolio section dark'}>
+    <section className={theme ? 'portfolio section' : 'portfolio section dark'} id="portfolio">
         <h2 className={theme ? 'section__title section__portfolio__title' : 'section__title dark'}>Portfolio</h2>
         <Lottie animationData={manAnimation} className='portfolio__img'/>
         <div className="portfolio__container container">

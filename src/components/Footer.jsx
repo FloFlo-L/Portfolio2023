@@ -14,27 +14,30 @@ const Footer = () => {
 
                 <ul className='footer__links'>
                     <li>
-                        <a href="" className='footer__link'>About</a>
+                        <a href="#a_propos" className='footer__link'>A propos</a>
                     </li>
                     <li>
-                        <a href=""className='footer__link'>Compétences</a>
+                        <a href="#competences"className='footer__link'>Compétences</a>
                     </li>
                     <li>
-                        <a href=""className='footer__link'>Portfolio</a>
+                        <a href="#parcour"className='footer__link'>Parcour</a>
                     </li>
                     <li>
-                        <a href=""className='footer__link'>Me contacter</a>
+                        <a href="#portfolio"className='footer__link'>Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#contact"className='footer__link'>Contact</a>
                     </li>
                 </ul>
 
                 <div className='footer__socials'>
-                    <a href="" className='footer__social'>
+                    <a href="https://www.linkedin.com/in/florian-lescribaa-240051210/" className='footer__social' target="_blank" rel='noopener noreferrer'>
                         <FontAwesomeIcon icon={faLinkedin} />
                     </a>
-                    <a href="" className='footer__social'>
+                    <a href="https://github.com/FloFlo-L" className='footer__social' target="_blank" rel='noopener noreferrer'>
                         <FontAwesomeIcon icon={faGithub} />
                     </a>
-                    <a href="" className='footer__social'>
+                    <a href="https://www.tiktok.com/@_floflo_dev" className='footer__social' target="_blank" rel='noopener noreferrer'>
                         <FontAwesomeIcon icon={faTiktok} /> 
                     </a>
                 </div>

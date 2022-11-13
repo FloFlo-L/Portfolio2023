@@ -9,17 +9,17 @@ import { ThemeContext } from '../context/ThemeContext'
 const Home = () => {
     const {theme} = useContext(ThemeContext)
   return (
-    <section className={theme ? 'home section' : 'home section dark'}>
+    <section className={theme ? 'home section' : 'home section dark'} id="home">
        <div className="home__container container grid">
             <div className="home__content grid">
                 <div className='home__social'>
                     <a href="https://www.linkedin.com/in/florian-lescribaa-240051210/" className='home__social-icon' target="_blank" rel='noopener noreferrer'>
                         <FontAwesomeIcon icon={faLinkedin} />
                     </a>
-                    <a href="https://www.linkedin.com/in/florian-lescribaa-240051210/" className='home__social-icon' target="_blank" rel='noopener noreferrer'>
+                    <a href="https://github.com/FloFlo-L" className='home__social-icon' target="_blank" rel='noopener noreferrer'>
                         <FontAwesomeIcon icon={faGithub} />
                     </a>
-                    <a href="https://www.linkedin.com/in/florian-lescribaa-240051210/" className='home__social-icon' target="_blank" rel='noopener noreferrer'>
+                    <a href="https://www.tiktok.com/@_floflo_dev" className='home__social-icon' target="_blank" rel='noopener noreferrer'>
                         <FontAwesomeIcon icon={faTiktok} />
                     </a>
                 </div>  
@@ -32,7 +32,7 @@ const Home = () => {
                     <h1 className={theme ? 'section__title' : 'section__title dark'}>Bonjour, Je suis Florian</h1>
                     <h3 className={theme ? 'section__subtitle' : 'section__subtitle dark'}>Full Stack Développeur Junior</h3>
                     <p className={theme ? 'home__description' : 'home__description dark'}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt tenetur deleniti vel alias nostrum fuga reiciendis, eos maxime non. Vitae minima consectetur earum nemo accusamus quo cupiditate officia eos vel.</p>
-                    <a href="" className='button button--flex'>
+                    <a href="#contact" className='button button--flex'>
                         Me contacter <FontAwesomeIcon icon={faPaperPlane} className='button__icon'/>
                     </a>
                 </div>

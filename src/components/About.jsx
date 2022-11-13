@@ -9,7 +9,7 @@ import { ThemeContext } from '../context/ThemeContext'
 const About = () => {
     const {theme} = useContext(ThemeContext)
   return (
-    <section className={theme ? 'about section ' : 'about section dark'}>
+    <section className={theme ? 'about section ' : 'about section dark'} id="a_propos">
         <h2 className={theme ? 'section__title' : 'section__title dark'}>A propos</h2>
 
         <div className="about__container container grid">

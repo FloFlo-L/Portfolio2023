@@ -9,12 +9,16 @@ import Skills from './components/Skills';
 import Footer from './components/Footer';
 
 import  ThemeContextProvider  from './context/ThemeContext';
+import { ReactNotifications } from 'react-notifications-component'
+import 'react-notifications-component/dist/theme.css'
+
 
 
 function App() {
   return (
     <>
     <ThemeContextProvider>
+    <ReactNotifications />
       <Header />
       <Home />
       <About />

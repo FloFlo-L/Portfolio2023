@@ -1,30 +1,50 @@
-import React, {useContext, useRef } from 'react'
+import React, {useContext, useRef, useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faPhone, faEnvelope, faLocationDot, faPaperPlane} from '@fortawesome/free-solid-svg-icons'
 //email
 import emailjs from '@emailjs/browser';
 //darkTheme
 import TheContext, { ThemeContext } from '../context/ThemeContext'
+//notification
+
+import { Store } from 'react-notifications-component';
+
 
 export const Contact = () => {
-
     //dakTheme
     const {theme} = useContext(ThemeContext)
+    //notification
+    function notificationOK() {
+        Store.addNotification({
+            title: "Succès",
+            message: "Votre message a bien été envoyé !",
+            type: "success",
+            insert: "top",
+            container: "top-right",
+            animationIn: ["animate__animated", "animate__fadeIn"],
+            animationOut: ["animate__animated", "animate__fadeOut"],
+            dismiss: {
+              duration: 5000,
+              onScreen: true
+            }
+        })
+    }
     //email
     const form = useRef();
+
     const sendEmail = (e) => {
         e.preventDefault();
-
         emailjs.sendForm('service_dwd0hhc', 'template_38jqpud', form.current, 'yH__73X88Jvz0mIvB')
         .then((result) => {
             console.log(result.text);
+                notificationOK()
         }, (error) => {
             console.log(error.text);
         });
     };
 
   return (
-    <section className={theme ? 'contact section' : 'contact section dark'}>
+    <section className={theme ? 'contact section' : 'contact section dark'} id="contact">
         <h2 className={theme ? 'section__title' : 'section__title dark'}>Me contacter</h2>
         <div className='contact__container container grid'>
             <div>
