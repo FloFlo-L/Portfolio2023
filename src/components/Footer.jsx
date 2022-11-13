@@ -1,6 +1,6 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faLinkedin, faGithub, faTiktok, faGit} from '@fortawesome/free-brands-svg-icons'
+import {faLinkedin, faGithub, faTiktok} from '@fortawesome/free-brands-svg-icons'
 
 const Footer = () => {
   return (
@@ -8,7 +8,7 @@ const Footer = () => {
         <div className='footer__bg'>
             <div className='footer__container container grid'>
                 <div>
-                    <h2 className='footer__title'>Florian Lescribaa</h2>
+                    <a href='#home' className='footer__title'>Florian Lescribaa</a>
                     <p className='footer__subtitle'>Développeur Web Full Stack Junior</p>
                 </div>
 

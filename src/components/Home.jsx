@@ -30,8 +30,8 @@ const Home = () => {
 
                 <div className="home__data">
                     <h1 className={theme ? 'section__title' : 'section__title dark'}>Bonjour, Je suis Florian</h1>
-                    <h3 className={theme ? 'section__subtitle' : 'section__subtitle dark'}>Full Stack Développeur Junior</h3>
-                    <p className={theme ? 'home__description' : 'home__description dark'}>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt tenetur deleniti vel alias nostrum fuga reiciendis, eos maxime non. Vitae minima consectetur earum nemo accusamus quo cupiditate officia eos vel.</p>
+                    <h3 className={theme ? 'section__subtitle' : 'section__subtitle dark'}>Développeur Full Stack Junior</h3>
+                    <p className={theme ? 'home__description' : 'home__description dark'}>Je suis passionné par les nouvelles technologies et l'informatique depuis mon adolescence</p>
                     <a href="#contact" className='button button--flex'>
                         Me contacter <FontAwesomeIcon icon={faPaperPlane} className='button__icon'/>
                     </a>

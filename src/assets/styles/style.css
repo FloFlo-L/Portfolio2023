@@ -401,11 +401,34 @@ img {
   display: block;
   background-color: hsl(250deg, 69%, 61%);
 }
-.skills__container .skills__content .skills__list .skills__data .skills__bar .skills__html,
+.skills__container .skills__content .skills__list .skills__data .skills__bar .skills__html {
+  width: 90%;
+}
 .skills__container .skills__content .skills__list .skills__data .skills__bar .skills__css,
-.skills__container .skills__content .skills__list .skills__data .skills__bar .skills__sass,
-.skills__container .skills__content .skills__list .skills__data .skills__bar .skills__js,
-.skills__container .skills__content .skills__list .skills__data .skills__bar .skills__react,
+.skills__container .skills__content .skills__list .skills__data .skills__bar .skills__sass {
+  width: 80%;
+}
+.skills__container .skills__content .skills__list .skills__data .skills__bar .skills__js {
+  width: 70%;
+}
+.skills__container .skills__content .skills__list .skills__data .skills__bar .skills__react {
+  width: 60%;
+}
+.skills__container .skills__content .skills__list .skills__data .skills__bar .skills__nodeJS {
+  width: 70%;
+}
+.skills__container .skills__content .skills__list .skills__data .skills__bar .skills__php {
+  width: 50%;
+}
+.skills__container .skills__content .skills__list .skills__data .skills__bar .skills__express {
+  width: 50%;
+}
+.skills__container .skills__content .skills__list .skills__data .skills__bar .skills__symphony {
+  width: 20%;
+}
+.skills__container .skills__content .skills__list .skills__data .skills__bar .skills__sql {
+  width: 60%;
+}
 .skills__container .skills__content .skills__list .skills__data .skills__bar .skills__figma {
   width: 50%;
 }
@@ -732,7 +755,7 @@ footer .footer__social {
   }
   .nav__icon,
 .nav__close,
-.nav__toggle {
+.icon__apps {
     display: none;
   }
   .nav__list {

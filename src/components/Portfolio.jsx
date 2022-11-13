@@ -1,9 +1,14 @@
-import React, {useContext, useState} from 'react'
+import React, {useContext} from 'react'
 //assets
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faArrowRight} from '@fortawesome/free-solid-svg-icons'
-import imgTest from '../assets/img/img.jpg'
 import imgTravaux from'../assets/img/travaux.jpg'
+import TrucEtPic from '../assets/img/Truc&Pic.svg'
+import Groupomania from '../assets/img/Groupomania.png'
+import Booki from '../assets/img/Booki.png'
+import Piiquante from '../assets/img/piiquante.png'
+import Kanap from '../assets/img/canap.png'
+import Panthere from '../assets/img/panthere.png'
 //carousel
 import {Swiper, SwiperSlide} from 'swiper/react'
 import "swiper/css";
@@ -58,7 +63,7 @@ const Portfolio = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className='portfolio__content grid'>
-                        <img src={imgTravaux} alt="" className='portfolio__img' />
+                        <img src={TrucEtPic} alt="" className='portfolio__img' />
                         <div className='portfolio__data'>
                             <h3 className={theme ? 'portfolio__title' : 'portfolio__title dark'}>Truc&Pic</h3>
                             <p className='portfolio__description'>Création du site de notre agence Web Truc&Pic fictive dans le cadre du projet tuteuré de la Licence Pro Développeur Web Full Stack</p>
@@ -70,7 +75,7 @@ const Portfolio = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className='portfolio__content grid'>
-                        <img src={imgTravaux} alt="" className='portfolio__img' />
+                        <img src={Groupomania} alt="" className='portfolio__img' />
                         <div className='portfolio__data'>
                             <h3 className={theme ? 'portfolio__title' : 'portfolio__title dark'}>Groupomania</h3>
                             <p className='portfolio__description'>Openclassromms - Projet 7 <br />Création d'un réseau social interne pour une entreprise <br />React - NodeJS - Express- MongoDB - MaterializeCss</p>
@@ -82,7 +87,7 @@ const Portfolio = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className='portfolio__content grid'>
-                        <img src={imgTravaux} alt="" className='portfolio__img' />
+                        <img src={Piiquante} alt="" className='portfolio__img' />
                         <div className='portfolio__data'>
                             <h3 className={theme ? 'portfolio__title' : 'portfolio__title dark'}>Piquante</h3>
                             <p className='portfolio__description'>Openclassromms - Projet 6 <br />Construire une API sécurisée pour une application d'avis gastronomique <br />OWASP - NodeJS - MongoDB - Express</p>
@@ -94,7 +99,7 @@ const Portfolio = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className='portfolio__content grid'>
-                        <img src={imgTravaux} alt="" className='portfolio__img' />
+                        <img src={Kanap} alt="" className='portfolio__img' />
                         <div className='portfolio__data'>
                             <h3 className={theme ? 'portfolio__title' : 'portfolio__title dark'}>Kanap</h3>
                             <p className='portfolio__description'>Openclassromms - Projet 5 <br />Construire un site e-commerce (Frontend)<br />JavaScript - HTML - CSS - API (Get, Post...) - LocalStorage</p>
@@ -106,7 +111,7 @@ const Portfolio = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className='portfolio__content grid'>
-                        <img src={imgTravaux} alt="" className='portfolio__img' />
+                        <img src={Panthere} alt="" className='portfolio__img' />
                         <div className='portfolio__data'>
                             <h3 className={theme ? 'portfolio__title' : 'portfolio__title dark'}>Agence la Panthère</h3>
                             <p className='portfolio__description'>Openclassromms - Projet 4 <br />Optimiser un site web existant. Améliorer le SEO l'accessibilité et les performances du site web <br />SEO - LightHouse - Accesibilité - HTML - CSS</p>
@@ -130,7 +135,7 @@ const Portfolio = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className='portfolio__content grid'>
-                        <img src={imgTravaux} alt="" className='portfolio__img' />
+                        <img src={Booki} alt="" className='portfolio__img' />
                         <div className='portfolio__data'>
                             <h3 className={theme ? 'portfolio__title' : 'portfolio__title dark'}>Booki</h3>
                             <p className='portfolio__description'>Openclassromms - Projet 2<br />Transformer une maquette en site web avec HTML & CSS (Intégration Web)<br />HTML - CSS - Git - Github</p>

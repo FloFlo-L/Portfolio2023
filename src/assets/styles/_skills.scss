@@ -57,11 +57,34 @@
                         background-color: $first-color;
                     }
 
-                    .skills__html,
+                    .skills__html{
+                        width: 90%;
+                    }
                     .skills__css,
-                    .skills__sass,
-                    .skills__js,
-                    .skills__react,
+                    .skills__sass{
+                        width: 80%;
+                    }
+                    .skills__js{
+                        width: 70%;
+                    }
+                    .skills__react{
+                        width: 60%;
+                    }
+                    .skills__nodeJS{
+                        width: 70%;
+                    }
+                    .skills__php{
+                        width: 50%;
+                    }
+                    .skills__express{
+                        width: 50%;
+                    }
+                    .skills__symphony{
+                        width: 20%;
+                    }
+                    .skills__sql{
+                        width: 60%;
+                    }
                     .skills__figma{
                         width: 50%;
                     }

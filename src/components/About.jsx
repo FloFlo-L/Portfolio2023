@@ -17,17 +17,12 @@ const About = () => {
         
         <div className='about__data'>
             <p className="about__description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore minima asperiores cumque laboriosam. Tenetur tempora assumenda praesentium, quas autem rerum ipsam beatae quod laudantium. Ullam earum ea culpa non quod!
+                Après avoir réalisé la formation Développeur Web d'Openclassroom (7 projets), j'ai maintenant intégré la Licence Pro Développeur Web Full Stack à l'Ecole du Web de l'Université de la Rochelle.
             </p>
             <div className="about__info">
                 <div>
-                    <span className={theme ? 'about__info-title' : 'about__info-title dark'}>08+</span>
-                    <span className="about__info-name">08+</span>
-                </div>
-
-                <div>
-                    <span className={theme ? 'about__info-title' : 'about__info-title dark'}>+ de 8</span>
-                    <span className="about__info-name">années expérience</span>
+                    <span className={theme ? 'about__info-title' : 'about__info-title dark'}>+ de 2</span>
+                    <span className="about__info-name">ans d'expérience</span>
                 </div>
 
                 <div>

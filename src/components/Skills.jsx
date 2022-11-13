@@ -35,7 +35,7 @@ const Skills = () => {
                         <div className="skills__data">
                             <div className="skills__titles">
                                 <h3 className={theme ? 'skills__name' : 'skills__name dark'}>HTML</h3>
-                                <span className='skills__number'>50%</span>
+                                <span className='skills__number'>90%</span>
                             </div>
                             <div className='skills__bar'>
                                 <span className='skills__percentage skills__html'></span>
@@ -45,7 +45,7 @@ const Skills = () => {
                         <div className="skills__data">
                             <div className="skills__titles">
                                 <h3 className={theme ? 'skills__name' : 'skills__name dark'}>CSS</h3>
-                                <span className='skills__number'>50%</span>
+                                <span className='skills__number'>80%</span>
                             </div>
                             <div className='skills__bar'>
                                 <span className='skills__percentage skills__css'></span>
@@ -55,7 +55,7 @@ const Skills = () => {
                         <div className="skills__data">
                             <div className="skills__titles">
                                 <h3 className={theme ? 'skills__name' : 'skills__name dark'}>SASS</h3>
-                                <span className='skills__number'>50%</span>
+                                <span className='skills__number'>80%</span>
                             </div>
                             <div className='skills__bar'>
                                 <span className='skills__percentage skills__sass'></span>
@@ -65,7 +65,7 @@ const Skills = () => {
                         <div className="skills__data">
                             <div className="skills__titles">
                                 <h3 className={theme ? 'skills__name' : 'skills__name dark'}>JS</h3>
-                                <span className='skills__number'>50%</span>
+                                <span className='skills__number'>70%</span>
                             </div>
                             <div className='skills__bar'>
                                 <span className='skills__percentage skills__js'></span>
@@ -75,7 +75,7 @@ const Skills = () => {
                         <div className="skills__data">
                             <div className="skills__titles">
                                 <h3 className={theme ? 'skills__name' : 'skills__name dark'}>REACT</h3>
-                                <span className='skills__number'>50%</span>
+                                <span className='skills__number'>60%</span>
                             </div>
                             <div className='skills__bar'>
                                 <span className='skills__percentage skills__react'></span>
@@ -93,51 +93,51 @@ const Skills = () => {
                     <div className='skills__list grid'>
                         <div className="skills__data">
                             <div className="skills__titles">
-                                <h3 className={theme ? 'skills__name' : 'skills__name dark'}>HTML</h3>
-                                <span className='skills__number'>50%</span>
+                                <h3 className={theme ? 'skills__name' : 'skills__name dark'}>NODE.JS</h3>
+                                <span className='skills__number'>70%</span>
                             </div>
                             <div className='skills__bar'>
-                                <span className='skills__percentage skills__html'></span>
+                                <span className='skills__percentage skills__nodeJS'></span>
                             </div>
                         </div>
 
                         <div className="skills__data">
                             <div className="skills__titles">
-                                <h3 className={theme ? 'skills__name' : 'skills__name dark'}>CSS</h3>
+                                <h3 className={theme ? 'skills__name' : 'skills__name dark'}>PHP</h3>
                                 <span className='skills__number'>50%</span>
                             </div>
                             <div className='skills__bar'>
-                                <span className='skills__percentage skills__css'></span>
+                                <span className='skills__percentage skills__php'></span>
                             </div>
                         </div>
 
                         <div className="skills__data">
                             <div className="skills__titles">
-                                <h3 className={theme ? 'skills__name' : 'skills__name dark'}>SASS</h3>
+                                <h3 className={theme ? 'skills__name' : 'skills__name dark'}>EXPRESS</h3>
                                 <span className='skills__number'>50%</span>
                             </div>
                             <div className='skills__bar'>
-                                <span className='skills__percentage skills__sass'></span>
+                                <span className='skills__percentage skills__express'></span>
                             </div>
                         </div>
 
                         <div className="skills__data">
                             <div className="skills__titles">
-                                <h3 className={theme ? 'skills__name' : 'skills__name dark'}>JS</h3>
-                                <span className='skills__number'>50%</span>
+                                <h3 className={theme ? 'skills__name' : 'skills__name dark'}>SYMPHONY</h3>
+                                <span className='skills__number'>20%</span>
                             </div>
                             <div className='skills__bar'>
-                                <span className='skills__percentage skills__js'></span>
+                                <span className='skills__percentage skills__symphony'></span>
                             </div>
                         </div>
 
                         <div className="skills__data">
                             <div className="skills__titles">
-                                <h3 className={theme ? 'skills__name' : 'skills__name dark'}>REACT</h3>
-                                <span className='skills__number'>50%</span>
+                                <h3 className={theme ? 'skills__name' : 'skills__name dark'}>SQL / NoSQL</h3>
+                                <span className='skills__number'>60%</span>
                             </div>
                             <div className='skills__bar'>
-                                <span className='skills__percentage skills__react'></span>
+                                <span className='skills__percentage skills__sql'></span>
                             </div>
                         </div>
                     </div>
