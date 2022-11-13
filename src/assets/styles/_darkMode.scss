@@ -1,0 +1,55 @@
+
+
+// debut header
+.header.dark{
+    background-color: $dark-body-color;
+}
+.nav__logo.dark,
+.nav__toggle.dark{
+    color: $dark-title-color;
+    font-weight: $font-medium;
+}
+.toggle.button__icon.dark{
+    color: yellow;
+}
+.nav__link.dark{
+    color: $dark-title-color;
+    &:hover{
+        color:$first-color;
+    }
+}
+// fin header
+
+// début about
+.about__info-title.dark{
+    color: $dark-title-color;
+}
+// fin about
+
+// début skills
+.skills__title.dark{
+    color: $dark-title-color;
+}
+.skills__name.dark{
+    color: $dark-text-color;
+}
+// fin skills
+
+// parcour
+.qualification__title.dark{
+    color :$dark-title-color
+}
+.portfolio__title.dark{
+    color: $dark-title-color
+}
+.contact__title.dark{
+    color: $dark-title-color
+}
+.contact__input.dark,
+.contact__content.dark{
+    background-color: $dark-input-color;
+}
+
+.contact__label.dark{
+    color: $dark-text-color;
+}

@@ -1,0 +1,38 @@
+.about__img{
+    width: 150px;
+    background-color: aqua;
+    border-radius: 0.5rem;
+    justify-self: center;
+    margin-bottom: $mb-2-5;
+}
+
+.about__description{
+    text-align: center;
+    margin-bottom: $mb-2-5;
+}
+
+.about__info{
+   display: flex;
+   justify-content: space-evenly; 
+   margin-bottom: $mb-2-5;
+
+   &-name{
+    font-size: $small-font-size;
+   }
+
+   &-title{
+    font-size: $h2-font-size;
+    font-weight: $font-semi-bold;
+    color: $title-color;
+   }
+
+   &-name,
+   &-title{
+    display: block;
+    text-align: center;
+   }
+}
+.about__buttons{
+    display: flex;
+    justify-content: center;
+}

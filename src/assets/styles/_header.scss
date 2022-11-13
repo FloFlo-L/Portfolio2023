@@ -1,0 +1,125 @@
+.header {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: $z-fixed;
+    background-color: $body-color;
+}
+
+.nav{
+    padding-left: $mb-1-5;
+    padding-right: $mb-1-5;
+    height: $header-height;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+}
+
+.nav__logo,
+.nav__toggle{
+    color: $title-color;
+    font-weight: $font-medium;
+}
+
+.nav__logo:hover{
+    color: $first-color;
+}
+
+        
+.nav__toggle{
+    font-size: 1.1rem;
+    cursor: pointer;
+    .toggle:hover{
+        color: $first-color;
+    }
+}
+
+.nav__list{
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.nav__link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size:$small-font-size ;
+    color: $title-color;
+    font-weight: $font-medium;
+
+    &:hover{
+        color:$first-color;
+    }
+}
+
+.nav__icon{
+    font-size: 1.2rem;
+    // &:hover{
+    //     color:$first-color;
+    // }
+}
+.color{
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 50%;
+
+    &:hover{
+        cursor: pointer;
+        border: 1.5px solid black;
+        color: $title-color;
+    }
+}
+.bleu{
+    background-color: hsl(250, 69%, 61%);
+}
+.rouge{
+    background-color: hsl(0, 69%, 61%);
+}
+.orange{
+    background-color: hsl(26, 69%, 61%);
+}
+.jaune{
+    background-color: hsl(52, 69%, 61%);
+}
+.vert{
+    background-color: hsl(140, 69%, 61%);
+}
+.violet{
+    background-color: hsl(312, 69%, 61%);
+}
+
+.nav__close{
+    position: absolute;
+    right: 1.5rem;
+    bottom: 0.8rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: $first-color;
+
+    &:hover{
+      color:$first-color-alt  
+    }
+}
+@media screen and (max-width: 767px) {
+    .nav__menu{
+        position: fixed;
+        bottom: -100%;
+        left: 0;
+        width: 100%;
+        background-color: $body-color;
+        padding: 2rem 1.5rem 4rem;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 1.5rem;
+        transition: 0.5s;
+    }
+}
+
+.show__menu{
+    position: fixed;
+    bottom: 0%;
+    left: 0;
+}
+
+
