@@ -15,7 +15,8 @@
         .portfolio__img{
             border-radius: 0.5rem;
             justify-self: center;
-            height: 200px;        
+            height: 200px; 
+            object-fit: cover;       
         }
 
         .portfolio__title{
@@ -37,7 +38,7 @@
 .swiper-pagination-bullet{
     background-color:  $first-color !important;
     width: 10px !important;
-    height: 10px;
+    height: 10px !important;
 }
 .swiper-pagination-bullet-active{
     background-color:  $first-color !important;

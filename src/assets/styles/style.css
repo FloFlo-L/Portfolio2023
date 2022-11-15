@@ -109,7 +109,7 @@ img {
 }
 
 .button__icon {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   margin-left: 0.5rem;
   transition: 0.3s;
 }
@@ -154,6 +154,9 @@ img {
 }
 .nav__toggle .toggle:hover {
   color: hsl(220deg, 69%, 61%);
+}
+.nav__toggle .icon__apps {
+  margin-left: 3rem;
 }
 
 .nav__list {
@@ -532,6 +535,8 @@ img {
   border-radius: 0.5rem;
   justify-self: center;
   height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .portfolio__container .portfolio__content .portfolio__title {
   font-size: 1.125rem;
@@ -550,7 +555,7 @@ img {
 .swiper-pagination-bullet {
   background-color: hsl(220deg, 69%, 61%) !important;
   width: 10px !important;
-  height: 10px;
+  height: 10px !important;
 }
 
 .swiper-pagination-bullet-active {
