@@ -33,3 +33,12 @@
         }
     }
 }
+
+.swiper-pagination-bullet{
+    background-color:  $first-color !important;
+    width: 10px !important;
+    height: 10px;
+}
+.swiper-pagination-bullet-active{
+    background-color:  $first-color !important;
+}

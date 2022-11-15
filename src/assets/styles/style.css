@@ -283,7 +283,7 @@ img {
   background: hsl(220deg, 69%, 61%);
   width: 55%;
   justify-self: center;
-  border-radius: 35% 35% 0 0;
+  border-radius: 25% 25% 0 0;
   padding: 1rem 1.5rem 0 1.5rem;
   overflow: hidden;
 }
@@ -547,6 +547,16 @@ img {
   transform: translateX(0.25rem);
 }
 
+.swiper-pagination-bullet {
+  background-color: hsl(220deg, 69%, 61%) !important;
+  width: 10px !important;
+  height: 10px;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: hsl(220deg, 69%, 61%) !important;
+}
+
 .contact__container {
   row-gap: 3rem;
 }
@@ -630,6 +640,10 @@ footer .footer__social {
   background-color: hsl(220deg, 28%, 12%);
 }
 
+.nav.dark {
+  box-shadow: 0 1px 4px rgba(255, 255, 255, 0.15);
+}
+
 .nav__logo.dark,
 .nav__toggle.dark {
   color: hsl(220deg, 8%, 95%);
@@ -677,6 +691,10 @@ footer .footer__social {
 
 .contact__label.dark {
   color: hsl(220deg, 8%, 75%);
+}
+
+.footer__bg.dark {
+  background-color: hsl(220deg, 29%, 16%);
 }
 
 @media screen and (max-width: 350px) {

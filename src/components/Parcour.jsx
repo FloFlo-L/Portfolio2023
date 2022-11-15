@@ -15,7 +15,7 @@ const Qualifications = () => {
   }
   return (
     <section className={theme ? 'qualification section' : 'qualification section dark'} id="parcour">
-        <h2 className={theme ? 'section__title' : 'section__title dark'}>Mon parcour</h2>
+        <h2 className={theme ? 'section__title' : 'section__title dark'}>Mon parcours</h2>
 
         <div className="qualification__container container">
           <div className='qualification__tabs'>

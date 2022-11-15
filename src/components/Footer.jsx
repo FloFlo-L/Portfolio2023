@@ -1,11 +1,13 @@
-import React from 'react'
+import React, {useContext} from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faLinkedin, faGithub, faTiktok} from '@fortawesome/free-brands-svg-icons'
+import {ThemeContext} from '../context/ThemeContext'
 
 const Footer = () => {
+    const {theme} = useContext(ThemeContext)
   return (
     <footer>
-        <div className='footer__bg'>
+        <div className={theme ? 'footer__bg': 'footer__bg dark'}>
             <div className='footer__container container grid'>
                 <div>
                     <a href='#home' className='footer__title'>Florian Lescribaa</a>

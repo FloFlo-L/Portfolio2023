@@ -21,7 +21,7 @@ const menuColor = () =>{
   return (
     // <Anchor>
      <header className={theme ? 'header' : 'header dark'}>
-        <nav className="nav">
+        <nav className={theme ? 'nav' : 'nav dark'}>
             <a href="#home" className={theme ? 'nav__logo' : 'nav__logo dark'}>
                 Florian Lescribaa
             </a>

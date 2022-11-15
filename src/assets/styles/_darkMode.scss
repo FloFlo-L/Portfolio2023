@@ -5,6 +5,10 @@
     background-color: $dark-body-color;
 }
 
+.nav.dark{
+    box-shadow: 0 1px 4px rgba(255, 255, 255, 0.15);
+}
+
 .nav__logo.dark,
 .nav__toggle.dark{
     color: $dark-title-color;
@@ -52,4 +56,8 @@
 
 .contact__label.dark{
     color: $dark-text-color;
+}
+
+.footer__bg.dark{
+    background-color: $dark-container-color;
 }

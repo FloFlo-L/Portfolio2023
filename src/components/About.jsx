@@ -10,7 +10,7 @@ const About = () => {
     const {theme} = useContext(ThemeContext)
   return (
     <section className={theme ? 'about section ' : 'about section dark'} id="a_propos">
-        <h2 className={theme ? 'section__title' : 'section__title dark'}>A propos</h2>
+        <h2 className={theme ? 'section__title' : 'section__title dark'}>A propos de moi</h2>
 
         <div className="about__container container">
             {/* <img src={floflo} alt="" className="about__img" /> */}
