@@ -9,6 +9,7 @@ import Booki from '../assets/img/Booki.png'
 import Piiquante from '../assets/img/piiquante.png'
 import Kanap from '../assets/img/canap.png'
 import Panthere from '../assets/img/panthere.png'
+import OhMyFood from '../assets/img/ohmyfood.png'
 //carousel
 import {Swiper, SwiperSlide} from 'swiper/react'
 import "swiper/css";
@@ -123,7 +124,7 @@ const Portfolio = () => {
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className='portfolio__content grid'>
-                        <img src={imgTravaux} alt="" className='portfolio__img' />
+                        <img src={OhMyFood} alt="" className='portfolio__img' />
                         <div className='portfolio__data'>
                             <h3 className={theme ? 'portfolio__title' : 'portfolio__title dark'}>Ohmyfood</h3>
                             <p className='portfolio__description'>Openclassromms - Projet 3 <br />Dynamiser une page web avec des animations CSS<br />HTML - SASS - Animations CSS</p>

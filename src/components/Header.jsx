@@ -26,7 +26,7 @@ const menuColor = () =>{
                 Florian Lescribaa
             </a>
             {/* menu */}
-            <div className={activeMenu ? 'nav__menu' : 'nav__menu show__menu'} >
+            <div className={activeMenu ? theme ? 'nav__menu' : 'nav__menu nav__menu__dark' : 'nav__menu show__menu' } >
                 <ul className="nav__list grid">
                     <li className="nav__item nav__home" onClick={menu}>
                         <a href="#home" className={theme ? 'nav__link' : 'nav__link dark'}>
