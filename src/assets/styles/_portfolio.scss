@@ -8,6 +8,7 @@
 }
 .portfolio__container{
     overflow: initial;
+    position: relative;
 
     .portfolio__content{
         padding: 0 1.5rem;
@@ -42,4 +43,38 @@
 }
 .swiper-pagination-bullet-active{
     background-color:  $first-color !important;
+}
+.swiper-button-next{
+    height: 5vh ;
+    width: 5vh;
+    color: $first-color;
+    position: absolute;
+    top: 40%;
+    right: 0;
+    z-index: 2;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+    &::before{
+        content: "\276F";
+        font-size: 2rem;
+    }
+}
+
+.swiper-button-prev{
+    height: 5vh ;
+    width: 5vh;
+    color: $first-color;
+    position: absolute;
+    z-index: 2;
+    top: 40%;
+    left: 0%;
+    display: flex;
+    align-items: center;
+
+    &:before{
+        content: "\276e";
+        font-size: 2rem;
+    }
 }

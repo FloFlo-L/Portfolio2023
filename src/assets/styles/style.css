@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*========== Font ==========*/
 /*========== Font weight ==========*/
 /* .5rem = 8px, 1rem = 16px, 1.5rem = 24px ... */
@@ -527,6 +528,7 @@ img {
 
 .portfolio__container {
   overflow: initial;
+  position: relative;
 }
 .portfolio__container .portfolio__content {
   padding: 0 1.5rem;
@@ -560,6 +562,39 @@ img {
 
 .swiper-pagination-bullet-active {
   background-color: hsl(220deg, 69%, 61%) !important;
+}
+
+.swiper-button-next {
+  height: 5vh;
+  width: 5vh;
+  color: hsl(220deg, 69%, 61%);
+  position: absolute;
+  top: 40%;
+  right: 0;
+  z-index: 2;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+.swiper-button-next::before {
+  content: "❯";
+  font-size: 2rem;
+}
+
+.swiper-button-prev {
+  height: 5vh;
+  width: 5vh;
+  color: hsl(220deg, 69%, 61%);
+  position: absolute;
+  z-index: 2;
+  top: 40%;
+  left: 0%;
+  display: flex;
+  align-items: center;
+}
+.swiper-button-prev:before {
+  content: "❮";
+  font-size: 2rem;
 }
 
 .contact__container {

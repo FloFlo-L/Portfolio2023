@@ -14,7 +14,7 @@ import OhMyFood from '../assets/img/ohmyfood.png'
 import {Swiper, SwiperSlide} from 'swiper/react'
 import "swiper/css";
 import "swiper/css/pagination";
-import { Pagination } from "swiper";
+import { Pagination, Navigation } from "swiper";
 //darkMode
 import { ThemeContext } from '../context/ThemeContext'
 //lottie
@@ -35,7 +35,8 @@ const Portfolio = () => {
                 pagination={{
                 dynamicBullets: true,
                 }}
-                modules={[Pagination]}
+                navigation={true}
+                modules={[Pagination, Navigation]}
                 className="mySwiper"
             >
                 <SwiperSlide>
@@ -44,9 +45,9 @@ const Portfolio = () => {
                         <div className='portfolio__data'>
                             <h3 className={theme ? 'portfolio__title' : 'portfolio__title dark'}>Be-boosted</h3>
                             <p className='portfolio__description'>Réalisation du site web Be-boosted dans le cadre du projet tuteuré de la Licence Pro Développeur Web Full Stack</p>
-                            {/* <a href="" className='button button--flex portfolio__button'>
-                                Demo dès fini <FontAwesomeIcon icon={faArrowRight} className='button__icon'/>
-                            </a>    */}
+                            <a href="" className='button button--flex portfolio__button'>
+                               En cours <FontAwesomeIcon icon={faArrowRight} className='button__icon'/>
+                            </a>   
                         </div>
                     </div>
                 </SwiperSlide>
@@ -56,9 +57,9 @@ const Portfolio = () => {
                         <div className='portfolio__data'>
                             <h3 className={theme ? 'portfolio__title' : 'portfolio__title dark'}>CampusInnov</h3>
                             <p className='portfolio__description'>Refonte du site CampusInnov dans le cadre du projet tuteuré de la Licence Pro Développeur Web Full Stack</p>
-                            {/* <a href="" className='button button--flex portfolio__button'>
-                                Demo dès fini <FontAwesomeIcon icon={faArrowRight} className='button__icon'/>
-                            </a>    */}
+                            <a href="" className='button button--flex portfolio__button'>
+                                En cours <FontAwesomeIcon icon={faArrowRight} className='button__icon'/>
+                            </a>   
                         </div>
                     </div>
                 </SwiperSlide>
@@ -68,9 +69,9 @@ const Portfolio = () => {
                         <div className='portfolio__data'>
                             <h3 className={theme ? 'portfolio__title' : 'portfolio__title dark'}>Truc&Pic</h3>
                             <p className='portfolio__description'>Création du site de notre agence Web Truc&Pic fictive dans le cadre du projet tuteuré de la Licence Pro Développeur Web Full Stack</p>
-                            {/* <a href="" className='button button--flex portfolio__button'>
-                                Demo dès fini <FontAwesomeIcon icon={faArrowRight} className='button__icon'/>
-                            </a>    */}
+                            <a href="" className='button button--flex portfolio__button'>
+                                En cours <FontAwesomeIcon icon={faArrowRight} className='button__icon'/>
+                            </a>   
                         </div>
                     </div>
                 </SwiperSlide>
