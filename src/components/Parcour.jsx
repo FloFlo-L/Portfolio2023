@@ -41,7 +41,7 @@ const Qualifications = () => {
                   <p className='qualification__subtitle'>Université de la Rochelle</p>
                   <div className="qualification__calendar">
                     <FontAwesomeIcon icon={faCalendar} className='qualification__calendar-icon' />
-                    2022-2023
+                    Sept 2022 - Août 2023
                   </div>
                 </div>
                 
@@ -75,7 +75,7 @@ const Qualifications = () => {
                   <p className='qualification__subtitle'>Université de l'Indre site de Châteauroux</p>
                   <div className="qualification__calendar">
                     <FontAwesomeIcon icon={faCalendar} className='qualification__calendar-icon' />
-                    2019-2021
+                    Sept 2019- Juillet 2021
                   </div>
                 </div>
                 
@@ -96,7 +96,7 @@ const Qualifications = () => {
                   <p className='qualification__subtitle'>Lycée Jules Ferry Versailles</p>
                   <div className="qualification__calendar">
                     <FontAwesomeIcon icon={faCalendar} className='qualification__calendar-icon'/>
-                    2020-2019
+                    Sept 2017 - Juillet 2019
                   </div>
                 </div>
                 
@@ -116,10 +116,10 @@ const Qualifications = () => {
                 </div>
                 <div>
                   <h3 className={theme ? 'qualification__title' : 'qualification__title dark'}>Projets TUT Licence pro</h3>
-                  <p className='qualification__subtitle'>Agence Truc&Pic<br></br>Projet Be-boosted et CampusInnov</p>
+                  <p className='qualification__subtitle'>Agence Web Truc&Pic,<br></br>Projets : Be-boosted et CampusInnov</p>
                   <div className="qualification__calendar">
                     <FontAwesomeIcon icon={faCalendar}  className='qualification__calendar-icon'/>
-                    2022-2023
+                    Sept 2022- Avril 2023
                   </div>
                 </div>
                 
@@ -127,11 +127,11 @@ const Qualifications = () => {
 
               <div className="qualification__data text__right">
                 <div>
-                  <h3 className={theme ? 'qualification__title' : 'qualification__title dark'}>Stage DUT GEII</h3>
-                  <p className='qualification__subtitle'>ASV Packaging, Châteauroux</p>
+                  <h3 className={theme ? 'qualification__title' : 'qualification__title dark'}>Réalisations de 7 projets</h3>
+                  <p className='qualification__subtitle'>Formation Openclassromms</p>
                   <div className="qualification__calendar">
                     <FontAwesomeIcon icon={faCalendar} className='qualification__calendar-icon'/>
-                    Avril - Juin 2021
+                    Février - Août 2022
                   </div>
                 </div>
                 
@@ -143,17 +143,35 @@ const Qualifications = () => {
 
               <div className="qualification__data">
                 <div></div>
-                <div>
+              <div>
                   <span className='qualification__rounder'></span>
-                  {/* <span className='qualification__line'></span> */}
+                  <span className='qualification__line'></span>
                 </div>
+                <div>
+                  <h3 className={theme ? 'qualification__title' : 'qualification__title dark'}>Stage DUT GEII</h3>
+                  <p className='qualification__subtitle'>ASV Packaging, Châteauroux</p>
+                  <div className="qualification__calendar">
+                    <FontAwesomeIcon icon={faCalendar} className='qualification__calendar-icon'/>
+                    Avril - Juin 2021
+                  </div>
+                </div>
+                
+                
+              </div>
+
+              <div className="qualification__data text__right">
                 <div>
                   <h3 className={theme ? 'qualification__title' : 'qualification__title dark'}>Projet TUT DUT GEII</h3>
                   <p className='qualification__subtitle'>Développer une application mobile pour paramétrer un hyperlapse</p>
                   <div className="qualification__calendar">
                     <FontAwesomeIcon icon={faCalendar} className='qualification__calendar-icon'/>
-                    2020-2019
+                    Nov 2019 - Fév 2020
                   </div>
+                </div>
+
+                <div>
+                  <span className='qualification__rounder'></span>
+                  {/* <span className='qualification__line'></span> */}
                 </div>
                 
               </div>

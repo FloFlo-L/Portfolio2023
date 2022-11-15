@@ -12,12 +12,12 @@ const About = () => {
     <section className={theme ? 'about section ' : 'about section dark'} id="a_propos">
         <h2 className={theme ? 'section__title' : 'section__title dark'}>A propos</h2>
 
-        <div className="about__container container grid">
-            <img src={floflo} alt="" className="about__img" />
+        <div className="about__container container">
+            {/* <img src={floflo} alt="" className="about__img" /> */}
         
         <div className='about__data'>
             <p className="about__description">
-                Après avoir réalisé la formation Développeur Web d'Openclassroom (7 projets), j'ai maintenant intégré la Licence Pro Développeur Web Full Stack à l'Ecole du Web de l'Université de la Rochelle.
+                Après avoir compéter avec succés la formation Développeur Web avec Openclassroom, j'ai maintenant intégré la Licence Pro Développeur Web Full Stack à l'Ecole du Web de l'Université de la Rochelle.
             </p>
             <div className="about__info">
                 <div>
@@ -41,5 +41,4 @@ const About = () => {
     </section>
   )
 }
-
 export default About

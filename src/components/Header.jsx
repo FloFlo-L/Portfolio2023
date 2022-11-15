@@ -28,7 +28,7 @@ const menuColor = () =>{
             {/* menu */}
             <div className={activeMenu ? 'nav__menu' : 'nav__menu show__menu'} >
                 <ul className="nav__list grid">
-                    <li className="nav__item" onClick={menu}>
+                    <li className="nav__item nav__home" onClick={menu}>
                         <a href="#home" className={theme ? 'nav__link' : 'nav__link dark'}>
                             <FontAwesomeIcon icon={faHome} className='nav__icon' />
                             Accueil
@@ -43,13 +43,13 @@ const menuColor = () =>{
                     <li className="nav__item" onClick={menu}>
                         <a href="#competences" className={theme ? 'nav__link' : 'nav__link dark'}>
                             <FontAwesomeIcon icon={faFile} className='nav__icon'/>
-                            Mes compétences
+                            Compétences
                         </a>
                     </li>
                     <li className="nav__item" onClick={menu}>
                         <a href="#parcour" className={theme ? 'nav__link' : 'nav__link dark'}>
                         <FontAwesomeIcon icon={faBriefcase} className='nav__icon'/>
-                        Parcour
+                        Parcours
                         </a>
                     </li>
                     <li className="nav__item" onClick={menu}>

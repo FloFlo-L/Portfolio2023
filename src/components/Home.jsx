@@ -30,7 +30,7 @@ const Home = () => {
 
                 <div className="home__data">
                     <h1 className={theme ? 'section__title' : 'section__title dark'}>Bonjour, Je suis Florian</h1>
-                    <h3 className={theme ? 'section__subtitle' : 'section__subtitle dark'}>Développeur Full Stack Junior</h3>
+                    <h3 className={theme ? 'section__subtitle' : 'section__subtitle dark'}>Développeur Web Full Stack Junior</h3>
                     <p className={theme ? 'home__description' : 'home__description dark'}>Je suis passionné par les nouvelles technologies et l'informatique depuis mon adolescence</p>
                     <a href="#contact" className='button button--flex'>
                         Me contacter <FontAwesomeIcon icon={faPaperPlane} className='button__icon'/>
@@ -38,15 +38,6 @@ const Home = () => {
                 </div>
             </div>
 
-            <div className="home__scroll">
-                <a href="" className='home__scroll-button button--flex'>
-                    <FontAwesomeIcon icon={faComputerMouse} className='home__scroll-mouse'/>
-                    <span className="home__scroll-name">
-                    Sroller en bas
-                    </span>
-                    <FontAwesomeIcon icon={faArrowDown} className='home__scroll_arrow'/>
-                </a>
-            </div>
        </div>
 
     </section>

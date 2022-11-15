@@ -1,14 +1,14 @@
 $header-height: 3rem;
-
-$first-color: hsl(250, 69%, 61%);
-$first-color-second: hsl(250, 69%, 61%);;
-$first-color-alt: hsl(250, 57%, 53%);;
-$first-color-lighter: hsl(250, 92%, 85%);;
-$title-color: hsl(250, 8%, 15%);;
-$text-color: hsl(250, 8%, 45%);;
-$text-color-light: hsl(250, 8%, 65%);;
-$input-color: hsl(250, 70%, 96%);;
-$body-color: hsl(250, 60%, 99%);;
+$main: 220;
+$first-color: hsl($main, 69%, 61%);
+$first-color-second: hsl($main, 69%, 61%);;
+$first-color-alt: hsl($main, 57%, 53%);;
+$first-color-lighter: hsl($main, 92%, 85%);;
+$title-color: hsl($main, 8%, 15%);;
+$text-color: hsl($main, 8%, 45%);;
+$text-color-light: hsl($main, 8%, 65%);;
+$input-color: hsl($main, 70%, 96%);;
+$body-color: hsl($main, 60%, 99%);;
 $container-color: #ffffff;
 
 /*========== Font ==========*/
@@ -54,12 +54,12 @@ $z-modal: 1000;
 }
 
 /*========== Variables Dark theme ==========*/
-$dark-first-color-second: hsl(250, 30%, 61%);
-$dark-title-color: hsl(250, 8%, 95%);
-$dark-text-color: hsl(250, 8%, 75%);
-$dark-input-color: hsl(250, 29%, 16%);;
-$dark-body-color: hsl(250, 28%, 12%);
-$dark-container-color: hsl(250, 29%, 16%);
+$dark-first-color-second: hsl($main, 30%, 61%);
+$dark-title-color: hsl($main, 8%, 95%);
+$dark-text-color: hsl($main, 8%, 75%);
+$dark-input-color: hsl($main, 29%, 16%);;
+$dark-body-color: hsl($main, 28%, 12%);
+$dark-container-color: hsl($main, 29%, 16%);
 
 /*========== Button Dark/Light ==========*/
 
