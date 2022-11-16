@@ -45,9 +45,9 @@ const Portfolio = () => {
                         <div className='portfolio__data'>
                             <h3 className={theme ? 'portfolio__title' : 'portfolio__title dark'}>Be-boosted</h3>
                             <p className='portfolio__description'>Réalisation du site web Be-boosted dans le cadre du projet tuteuré de la Licence Pro Développeur Web Full Stack</p>
-                            <a href="" className='button button--flex portfolio__button'>
+                            <div className='button button--flex portfolio__button'>
                                En cours <FontAwesomeIcon icon={faArrowRight} className='button__icon'/>
-                            </a>   
+                            </div>   
                         </div>
                     </div>
                 </SwiperSlide>
@@ -57,9 +57,9 @@ const Portfolio = () => {
                         <div className='portfolio__data'>
                             <h3 className={theme ? 'portfolio__title' : 'portfolio__title dark'}>CampusInnov</h3>
                             <p className='portfolio__description'>Refonte du site CampusInnov dans le cadre du projet tuteuré de la Licence Pro Développeur Web Full Stack</p>
-                            <a href="" className='button button--flex portfolio__button'>
+                            <div className='button button--flex portfolio__button'>
                                 En cours <FontAwesomeIcon icon={faArrowRight} className='button__icon'/>
-                            </a>   
+                            </div>   
                         </div>
                     </div>
                 </SwiperSlide>
@@ -69,9 +69,9 @@ const Portfolio = () => {
                         <div className='portfolio__data'>
                             <h3 className={theme ? 'portfolio__title' : 'portfolio__title dark'}>Truc&Pic</h3>
                             <p className='portfolio__description'>Création du site de notre agence Web Truc&Pic fictive dans le cadre du projet tuteuré de la Licence Pro Développeur Web Full Stack</p>
-                            <a href="" className='button button--flex portfolio__button'>
+                            <div className='button button--flex portfolio__button'>
                                 En cours <FontAwesomeIcon icon={faArrowRight} className='button__icon'/>
-                            </a>   
+                            </div>   
                         </div>
                     </div>
                 </SwiperSlide>
@@ -80,7 +80,7 @@ const Portfolio = () => {
                         <img src={Groupomania} alt="" className='portfolio__img' />
                         <div className='portfolio__data'>
                             <h3 className={theme ? 'portfolio__title' : 'portfolio__title dark'}>Groupomania</h3>
-                            <p className='portfolio__description'>Openclassromms - Projet 7 <br />Création d'un réseau social interne pour une entreprise <br />React - NodeJS - Express- MongoDB - MaterializeCss</p>
+                            <p className='portfolio__description'>Openclassrooms - Projet 7 <br />Création d'un réseau social interne pour une entreprise <br />React - NodeJS - Express- MongoDB - MaterializeCss</p>
                             <a href="https://github.com/FloFlo-L/Groupomania_OC_P7" className='button button--flex portfolio__button'>
                                 Github<FontAwesomeIcon icon={faArrowRight} className='button__icon'/>
                             </a>   
@@ -92,7 +92,7 @@ const Portfolio = () => {
                         <img src={Piiquante} alt="" className='portfolio__img' />
                         <div className='portfolio__data'>
                             <h3 className={theme ? 'portfolio__title' : 'portfolio__title dark'}>Piquante</h3>
-                            <p className='portfolio__description'>Openclassromms - Projet 6 <br />Construire une API sécurisée pour une application d'avis gastronomique <br />OWASP - NodeJS - MongoDB - Express</p>
+                            <p className='portfolio__description'>Openclassrooms - Projet 6 <br />Construire une API sécurisée pour une application d'avis gastronomique <br />OWASP - NodeJS - MongoDB - Express</p>
                             <a href="https://github.com/FloFlo-L/P6_OC" className='button button--flex portfolio__button'>
                                 Github<FontAwesomeIcon icon={faArrowRight} className='button__icon'/>
                             </a>   
@@ -104,7 +104,7 @@ const Portfolio = () => {
                         <img src={Kanap} alt="" className='portfolio__img' />
                         <div className='portfolio__data'>
                             <h3 className={theme ? 'portfolio__title' : 'portfolio__title dark'}>Kanap</h3>
-                            <p className='portfolio__description'>Openclassromms - Projet 5 <br />Construire un site e-commerce (Frontend)<br />JavaScript - HTML - CSS - API (Get, Post...) - LocalStorage</p>
+                            <p className='portfolio__description'>Openclassrooms - Projet 5 <br />Construire un site e-commerce (Frontend)<br />JavaScript - HTML - CSS - API (Get, Post...) - LocalStorage</p>
                             <a href="https://github.com/FloFlo-L/Kanap_P5" className='button button--flex portfolio__button'>
                                 Github<FontAwesomeIcon icon={faArrowRight} className='button__icon'/>
                             </a>   
@@ -116,7 +116,7 @@ const Portfolio = () => {
                         <img src={Panthere} alt="" className='portfolio__img' />
                         <div className='portfolio__data'>
                             <h3 className={theme ? 'portfolio__title' : 'portfolio__title dark'}>Agence la Panthère</h3>
-                            <p className='portfolio__description'>Openclassromms - Projet 4 <br />Optimiser un site web existant. Améliorer le SEO l'accessibilité et les performances du site web <br />SEO - LightHouse - Accesibilité - HTML - CSS</p>
+                            <p className='portfolio__description'>Openclassrooms - Projet 4 <br />Optimiser un site web existant. Améliorer le SEO l'accessibilité et les performances du site web <br />SEO - LightHouse - Accesibilité - HTML - CSS</p>
                             <a href="https://github.com/FloFlo-L/P4-Agence-La-Panthere" className='button button--flex portfolio__button'>
                                 Github<FontAwesomeIcon icon={faArrowRight} className='button__icon'/>
                             </a>   
@@ -128,7 +128,7 @@ const Portfolio = () => {
                         <img src={OhMyFood} alt="" className='portfolio__img' />
                         <div className='portfolio__data'>
                             <h3 className={theme ? 'portfolio__title' : 'portfolio__title dark'}>Ohmyfood</h3>
-                            <p className='portfolio__description'>Openclassromms - Projet 3 <br />Dynamiser une page web avec des animations CSS<br />HTML - SASS - Animations CSS</p>
+                            <p className='portfolio__description'>Openclassrooms - Projet 3 <br />Dynamiser une page web avec des animations CSS<br />HTML - SASS - Animations CSS</p>
                             <a href="https://github.com/FloFlo-L/FlorianLescribaa_3_25022022" className='button button--flex portfolio__button'>
                                 Github<FontAwesomeIcon icon={faArrowRight} className='button__icon'/>
                             </a>   
@@ -140,7 +140,7 @@ const Portfolio = () => {
                         <img src={Booki} alt="" className='portfolio__img' />
                         <div className='portfolio__data'>
                             <h3 className={theme ? 'portfolio__title' : 'portfolio__title dark'}>Booki</h3>
-                            <p className='portfolio__description'>Openclassromms - Projet 2<br />Transformer une maquette en site web avec HTML & CSS (Intégration Web)<br />HTML - CSS - Git - Github</p>
+                            <p className='portfolio__description'>Openclassrooms - Projet 2<br />Transformer une maquette en site web avec HTML & CSS (Intégration Web)<br />HTML - CSS - Git - Github</p>
                             <a href="https://github.com/FloFlo-L/FlorianLescribaa_2_16022022" className='button button--flex portfolio__button'>
                                 Github<FontAwesomeIcon icon={faArrowRight} className='button__icon'/>
                             </a>   

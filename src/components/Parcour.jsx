@@ -38,7 +38,7 @@ const Qualifications = () => {
               <div className="qualification__data text__right">
                 <div>
                   <h3 className={theme ? 'qualification__title' : 'qualification__title dark'}>Licence Pro Développeur Web Full Stack</h3>
-                  <p className='qualification__subtitle'>Université de la Rochelle</p>
+                  <p className='qualification__subtitle'>Ecole du Web<br></br>Université de la Rochelle</p>
                   <div className="qualification__calendar">
                     <FontAwesomeIcon icon={faCalendar} className='qualification__calendar-icon' />
                     Sept 2022 - Août 2023
@@ -127,8 +127,8 @@ const Qualifications = () => {
 
               <div className="qualification__data text__right">
                 <div>
-                  <h3 className={theme ? 'qualification__title' : 'qualification__title dark'}>Réalisations de 7 projets</h3>
-                  <p className='qualification__subtitle'>Formation Openclassromms</p>
+                  <h3 className={theme ? 'qualification__title' : 'qualification__title dark'}>Nombreux projets Openclassrooms</h3>
+                  <p className='qualification__subtitle'>Voir portfolio</p>
                   <div className="qualification__calendar">
                     <FontAwesomeIcon icon={faCalendar} className='qualification__calendar-icon'/>
                     Février - Août 2022
