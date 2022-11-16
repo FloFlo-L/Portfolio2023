@@ -17,7 +17,7 @@ const About = () => {
         
         <div className='about__data'>
             <p className="about__description">
-                Après avoir compéter avec succés la formation Développeur Web avec Openclassroom, j'ai maintenant intégré la Licence Pro Développeur Web Full Stack à l'Ecole du Web de l'Université de la Rochelle.
+                Après avoir compété avec succés la formation Développeur Web avec Openclassroom, j'ai maintenant intégré la Licence Pro Développeur Web Full Stack à l'Ecole du Web de l'Université de la Rochelle.
             </p>
             <div className="about__info">
                 <div>

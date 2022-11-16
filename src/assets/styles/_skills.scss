@@ -37,10 +37,15 @@
                     display: flex;
                     justify-content: space-between;
                     margin-bottom: $mb-0-5;
+                    text-align: center;
 
                     .skills__name{
                         font-size: $normal-font-size;
                         font-weight: $font-medium;
+
+                    }
+                    .icon__skill{
+                        font-size: 1.5rem;
                     }
                 }
                 
@@ -48,45 +53,13 @@
                 .skills__bar{
                     height: 5px; 
                     border-radius: 0.25rem;
-                    background-color: $first-color-lighter;
+                    background-color: $first-color;
 
                     .skills__percentage{
                         height: 5px; 
                         border-radius: 0.25rem;
                         display: block;
                         background-color: $first-color;
-                    }
-
-                    .skills__html{
-                        width: 90%;
-                    }
-                    .skills__css,
-                    .skills__sass{
-                        width: 80%;
-                    }
-                    .skills__js{
-                        width: 70%;
-                    }
-                    .skills__react{
-                        width: 60%;
-                    }
-                    .skills__nodeJS{
-                        width: 70%;
-                    }
-                    .skills__php{
-                        width: 50%;
-                    }
-                    .skills__express{
-                        width: 50%;
-                    }
-                    .skills__symphony{
-                        width: 20%;
-                    }
-                    .skills__sql{
-                        width: 60%;
-                    }
-                    .skills__figma{
-                        width: 50%;
                     }
                 }
                
@@ -95,7 +68,12 @@
     }
     .skills__close .skills__list{
         height: 0;
-        transform: translateY(-200px);
+        transform: translateY(-300px);
+        overflow: hidden;
+    }
+    .skills__close .skills__list{
+        height: 0;
+        transform: translateY(-60px);
         overflow: hidden;
     }
     .skills__open .skills__list{

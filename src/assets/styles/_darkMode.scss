@@ -5,6 +5,10 @@
     background-color: $dark-body-color;
 }
 
+.show__menu.dark{
+    background-color: $dark-body-color;
+    box-shadow: 0 1px 4px rgba(255, 255, 255, 0.15);
+}
 .nav.dark{
     box-shadow: 0 1px 4px rgba(255, 255, 255, 0.15);
 }

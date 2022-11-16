@@ -386,15 +386,19 @@ img {
   display: flex;
   justify-content: space-between;
   margin-bottom: 0.5rem;
+  text-align: center;
 }
 .skills__container .skills__content .skills__list .skills__data .skills__titles .skills__name {
   font-size: 0.938rem;
   font-weight: 500;
 }
+.skills__container .skills__content .skills__list .skills__data .skills__titles .icon__skill {
+  font-size: 1.5rem;
+}
 .skills__container .skills__content .skills__list .skills__data .skills__bar {
   height: 5px;
   border-radius: 0.25rem;
-  background-color: hsl(220deg, 92%, 85%);
+  background-color: hsl(220deg, 69%, 61%);
 }
 .skills__container .skills__content .skills__list .skills__data .skills__bar .skills__percentage {
   height: 5px;
@@ -402,40 +406,14 @@ img {
   display: block;
   background-color: hsl(220deg, 69%, 61%);
 }
-.skills__container .skills__content .skills__list .skills__data .skills__bar .skills__html {
-  width: 90%;
-}
-.skills__container .skills__content .skills__list .skills__data .skills__bar .skills__css,
-.skills__container .skills__content .skills__list .skills__data .skills__bar .skills__sass {
-  width: 80%;
-}
-.skills__container .skills__content .skills__list .skills__data .skills__bar .skills__js {
-  width: 70%;
-}
-.skills__container .skills__content .skills__list .skills__data .skills__bar .skills__react {
-  width: 60%;
-}
-.skills__container .skills__content .skills__list .skills__data .skills__bar .skills__nodeJS {
-  width: 70%;
-}
-.skills__container .skills__content .skills__list .skills__data .skills__bar .skills__php {
-  width: 50%;
-}
-.skills__container .skills__content .skills__list .skills__data .skills__bar .skills__express {
-  width: 50%;
-}
-.skills__container .skills__content .skills__list .skills__data .skills__bar .skills__symphony {
-  width: 20%;
-}
-.skills__container .skills__content .skills__list .skills__data .skills__bar .skills__sql {
-  width: 60%;
-}
-.skills__container .skills__content .skills__list .skills__data .skills__bar .skills__figma {
-  width: 50%;
+.skills__container .skills__close .skills__list {
+  height: 0;
+  transform: translateY(-300px);
+  overflow: hidden;
 }
 .skills__container .skills__close .skills__list {
   height: 0;
-  transform: translateY(-200px);
+  transform: translateY(-60px);
   overflow: hidden;
 }
 .skills__container .skills__open .skills__list {
@@ -678,6 +656,11 @@ footer .footer__social {
 
 .header.dark {
   background-color: hsl(220deg, 28%, 12%);
+}
+
+.show__menu.dark {
+  background-color: hsl(220deg, 28%, 12%);
+  box-shadow: 0 1px 4px rgba(255, 255, 255, 0.15);
 }
 
 .nav.dark {
