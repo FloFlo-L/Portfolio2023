@@ -47,7 +47,7 @@ export const Contact = () => {
             console.log(result.text);
             Store.addNotification({
                 title: "Succès",
-                message: "Votre message a bien été envoyé ! A bientôt 👋",
+                message: "Votre message a bien été envoyé ✅ !!! A bientôt 👋",
                 type: "success",
                 insert: "top",
                 container: "top-right",
@@ -61,6 +61,19 @@ export const Contact = () => {
             setNom("");
         }, (error) => {
             console.log(error.text);
+            Store.addNotification({
+                title: "Erreur",
+                message: "Erreur Crtique ❌ !!! Réessayez plus tard ⏲️",
+                type: "danger",
+                insert: "top",
+                container: "top-right",
+                animationIn: ["animate__animated", "animate__fadeIn"],
+                animationOut: ["animate__animated", "animate__fadeOut"],
+                dismiss: {
+                duration: 5000,
+                onScreen: true
+                }
+            })
         });
        }
     
