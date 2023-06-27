@@ -2,7 +2,6 @@ import React, {useContext} from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faDownload} from '@fortawesome/free-solid-svg-icons'
 import CVPDF from '../assets/pdf/CV_Florian_Lescribaa.pdf'
-import floflo from '../assets/img/floflo.png'
 
 import { ThemeContext } from '../context/ThemeContext'
 
@@ -31,9 +30,15 @@ const About = () => {
                 </div>
             </div>
    
-            <div className='about__buttons'>
-                <a download={CVPDF} href="#" className='button button--flex'>
+            {/* <div className='about__buttons'>
+                <a download={CVPDF} href="#a_propos" className='button button--flex'>
                     Télécharger mon CV<FontAwesomeIcon icon={faDownload} className='button__icon'/>
+                </a>
+            </div> */}
+
+            <div className='about__buttons'>
+                <a href="#portfolio" className='button button--flex'>
+                    Voir mon portfolio
                 </a>
             </div>
         </div>

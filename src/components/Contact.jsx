@@ -63,7 +63,7 @@ export const Contact = () => {
             console.log(error.text);
             Store.addNotification({
                 title: "Erreur",
-                message: "Erreur Crtique ❌ !!! Réessayez plus tard ⏲️",
+                message: "Erreur Crtique ❌ !!! Réessayez plus tard ",
                 type: "danger",
                 insert: "top",
                 container: "top-right",

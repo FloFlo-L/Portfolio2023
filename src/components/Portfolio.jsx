@@ -43,6 +43,18 @@ const Portfolio = () => {
             >
                 <SwiperSlide>
                     <div className='portfolio__content grid'>
+                        <img src={TrucEtPic} alt="logo Truc&Pic" className='portfolio__img' />
+                        <div className='portfolio__data'>
+                            <h3 className={theme ? 'portfolio__title' : 'portfolio__title dark'}>Truc&Pic</h3>
+                            <p className='portfolio__description'>Création du site de notre agence Web Truc&Pic fictive dans le cadre du projet tuteuré de la Licence Pro Développeur Web Full Stack</p>
+                            <a href="https://agence-truc-et-pic.lpmiaw.univ-lr.fr/desktop" className='button button--flex portfolio__button' target='__blank'>
+                                Voir <FontAwesomeIcon icon={faEye} className='button__icon'/>
+                            </a>   
+                        </div>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className='portfolio__content grid'>
                         <img src={Beboosted} alt="logo Be-Boosted" className='portfolio__img none-obj' />
                         <div className='portfolio__data'>
                             <h3 className={theme ? 'portfolio__title' : 'portfolio__title dark'}>Be-boosted</h3>
@@ -60,18 +72,6 @@ const Portfolio = () => {
                             <h3 className={theme ? 'portfolio__title' : 'portfolio__title dark'}>CampusInnov</h3>
                             <p className='portfolio__description'>Refonte du site CampusInnov dans le cadre du projet tuteuré de la Licence Pro Développeur Web Full Stack</p>
                             <a href="https://campusinnov-dev.univ-lr.fr/accueil/" className='button button--flex portfolio__button' target='__blank'>
-                                Voir <FontAwesomeIcon icon={faEye} className='button__icon'/>
-                            </a>   
-                        </div>
-                    </div>
-                </SwiperSlide>
-                <SwiperSlide>
-                    <div className='portfolio__content grid'>
-                        <img src={TrucEtPic} alt="logo Truc&Pic" className='portfolio__img' />
-                        <div className='portfolio__data'>
-                            <h3 className={theme ? 'portfolio__title' : 'portfolio__title dark'}>Truc&Pic</h3>
-                            <p className='portfolio__description'>Création du site de notre agence Web Truc&Pic fictive dans le cadre du projet tuteuré de la Licence Pro Développeur Web Full Stack</p>
-                            <a href="https://agence-truc-et-pic.lpmiaw.univ-lr.fr/desktop" className='button button--flex portfolio__button' target='__blank'>
                                 Voir <FontAwesomeIcon icon={faEye} className='button__icon'/>
                             </a>   
                         </div>
