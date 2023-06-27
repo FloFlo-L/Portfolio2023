@@ -26,7 +26,7 @@ const About = () => {
                 </div>
 
                 <div>
-                    <span className={theme ? 'about__info-title' : 'about__info-title dark'}>+ de 7</span>
+                    <span className={theme ? 'about__info-title' : 'about__info-title dark'}>+ de 10</span>
                     <span className="about__info-name">projets réalisés</span>
                 </div>
             </div>

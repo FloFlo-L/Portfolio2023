@@ -1,6 +1,6 @@
 import React, {useContext, useState} from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import {faCode, faAngleDown, faDatabase, faPalette} from '@fortawesome/free-solid-svg-icons'
+import {faCode, faAngleDown, faDatabase, faPalette, faShoppingCart} from '@fortawesome/free-solid-svg-icons'
 import {faHtml5, faCss3, faSass, faJs, faReact, faNodeJs, faPhp, faSymfony, faFigma, faWordpress} from '@fortawesome/free-brands-svg-icons'
 
 import { ThemeContext } from '../context/ThemeContext'
@@ -29,7 +29,7 @@ const Skills = () => {
                 <div className={arrowOne ? 'skills__content skills__close' : 'skills__content skills__open'}>
                     <div className='skills__header'>
                         <FontAwesomeIcon icon={faCode} className='skills__icon'/>
-                            <h2 className={theme ? 'skills__title' : 'skills__title dark'}>Développement Frontend</h2>
+                            <h2 className={theme ? 'skills__title' : 'skills__title dark'}>Frontend & Backend</h2>
                         <FontAwesomeIcon icon={faAngleDown} className='skills__arrow' onClick={skillsOne}/>
                     </div>
                     <div className='skills__list grid'>
@@ -70,41 +70,6 @@ const Skills = () => {
 
                         <div className="skills__data">
                             <div className="skills__titles">
-                                <h3 className={theme ? 'skills__name' : 'skills__name dark'}>REACT</h3>
-                                <FontAwesomeIcon icon={faReact} className={theme ? 'icon__skill' : 'icon__skill dark'}/>
-                            </div>
-                            <div className='skills__bar'>
-                            </div>
-                        </div>
-                        <div className="skills__data">
-                            <div className="skills__titles">
-                                <h3 className={theme ? 'skills__name' : 'skills__name dark'}>WORDPESS</h3>
-                                <FontAwesomeIcon icon={faWordpress} className={theme ? 'icon__skill' : 'icon__skill dark'}/>
-                            </div>
-                            <div className='skills__bar'>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                {/* Backend */}
-                <div className={arrowTwo ? 'skills__content skills__close' : 'skills__content skills__open'}>
-                    <div className='skills__header'>
-                        <FontAwesomeIcon icon={faDatabase} className='skills__icon'/>
-                        <h2 className={theme ? 'skills__title' : 'skills__title dark'}>Développement Backend</h2>
-                        <FontAwesomeIcon icon={faAngleDown} className='skills__arrow' onClick={skillsTwo}/>
-                    </div>
-                    <div className='skills__list grid'>
-                        <div className="skills__data">
-                            <div className="skills__titles">
-                                <h3 className={theme ? 'skills__name' : 'skills__name dark'}>NODE.JS</h3>
-                                <FontAwesomeIcon icon={faNodeJs} className={theme ? 'icon__skill' : 'icon__skill dark'}/>
-                            </div>
-                            <div className='skills__bar'>
-                            </div>
-                        </div>
-
-                        <div className="skills__data">
-                            <div className="skills__titles">
                                 <h3 className={theme ? 'skills__name' : 'skills__name dark'}>PHP</h3>
                                 <FontAwesomeIcon icon={faPhp} className={theme ? 'icon__skill' : 'icon__skill dark'}/>
                             </div>
@@ -114,8 +79,27 @@ const Skills = () => {
 
                         <div className="skills__data">
                             <div className="skills__titles">
-                                <h3 className={theme ? 'skills__name' : 'skills__name dark'}>EXPRESS</h3>
-                                <FontAwesomeIcon icon={faNodeJs} className={theme ? 'icon__skill' : 'icon__skill dark'}/>
+                                <h3 className={theme ? 'skills__name' : 'skills__name dark'}>SQL / NoSQL</h3>
+                                <FontAwesomeIcon icon={faDatabase}className={theme ? 'icon__skill' : 'icon__skill dark'}/>
+                            </div>
+                            <div className='skills__bar'>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                {/* Backend */}
+                <div className={arrowTwo ? 'skills__content skills__close' : 'skills__content skills__open'}>
+                    <div className='skills__header'>
+                        <FontAwesomeIcon icon={faDatabase} className='skills__icon'/>
+                        <h2 className={theme ? 'skills__title' : 'skills__title dark'}>Frameworks & CMS</h2>
+                        <FontAwesomeIcon icon={faAngleDown} className='skills__arrow' onClick={skillsTwo}/>
+                    </div>
+                    <div className='skills__list grid'>
+                        <div className="skills__data">
+                            <div className="skills__titles">
+                                <h3 className={theme ? 'skills__name' : 'skills__name dark'}>REACT</h3>
+                                <FontAwesomeIcon icon={faReact} className={theme ? 'icon__skill' : 'icon__skill dark'}/>
                             </div>
                             <div className='skills__bar'>
                             </div>
@@ -132,17 +116,18 @@ const Skills = () => {
 
                         <div className="skills__data">
                             <div className="skills__titles">
-                                <h3 className={theme ? 'skills__name' : 'skills__name dark'}>SQL / NoSQL</h3>
-                                <FontAwesomeIcon icon={faDatabase}className={theme ? 'icon__skill' : 'icon__skill dark'}/>
+                                <h3 className={theme ? 'skills__name' : 'skills__name dark'}>WORDPESS</h3>
+                                <FontAwesomeIcon icon={faWordpress} className={theme ? 'icon__skill' : 'icon__skill dark'}/>
                             </div>
                             <div className='skills__bar'>
                             </div>
                         </div>
 
+                        
                         <div className="skills__data">
                             <div className="skills__titles">
-                                <h3 className={theme ? 'skills__name' : 'skills__name dark'}>WORDPESS</h3>
-                                <FontAwesomeIcon icon={faWordpress} className={theme ? 'icon__skill' : 'icon__skill dark'}/>
+                                <h3 className={theme ? 'skills__name' : 'skills__name dark'}>PRESTASHOP</h3>
+                                <FontAwesomeIcon icon={faShoppingCart} className={theme ? 'icon__skill' : 'icon__skill dark'}/>
                             </div>
                             <div className='skills__bar'>
                             </div>

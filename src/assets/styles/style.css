@@ -23,12 +23,12 @@ body {
   margin: 0 0 3rem 0;
   font-family: "Poppins", sans-serif;
   font-size: 0.938rem;
-  background-color: hsl(220deg, 60%, 99%);
-  color: hsl(220deg, 8%, 45%);
+  background-color: hsl(220, 60%, 99%);
+  color: hsl(220, 8%, 45%);
 }
 
 h1, h2, h3, h4 {
-  color: hsl(220deg, 8%, 15%);
+  color: hsl(220, 8%, 15%);
   font-weight: 600;
 }
 
@@ -51,7 +51,7 @@ img {
 
 .section__title {
   font-size: 1.5rem;
-  color: hsl(220deg, 8%, 15%);
+  color: hsl(220, 8%, 15%);
   margin-bottom: 2.5rem;
 }
 
@@ -67,15 +67,15 @@ img {
 }
 
 .section.dark {
-  background-color: hsl(220deg, 28%, 12%);
+  background-color: hsl(220, 28%, 12%);
 }
 
 .section__title.dark {
-  color: hsl(220deg, 8%, 95%);
+  color: hsl(220, 8%, 95%);
 }
 
 .section__subtitle.dark {
-  color: hsl(220deg, 8%, 95%);
+  color: hsl(220, 8%, 95%);
 }
 
 .container {
@@ -85,7 +85,7 @@ img {
 }
 
 .container.dark {
-  background-color: hsl(220deg, 28%, 12%);
+  background-color: hsl(220, 28%, 12%);
 }
 
 .grid {
@@ -94,19 +94,19 @@ img {
 }
 
 .grid.dark {
-  background-color: hsl(220deg, 28%, 12%);
+  background-color: hsl(220, 28%, 12%);
 }
 
 .button {
   display: inline-block;
-  background-color: hsl(220deg, 69%, 61%);
+  background-color: hsl(220, 69%, 61%);
   color: #fff;
   padding: 1rem;
   font-weight: 500;
   border-radius: 0.5rem;
 }
 .button:hover {
-  background-color: hsl(220deg, 57%, 53%);
+  background-color: hsl(220, 57%, 53%);
 }
 
 .button__icon {
@@ -126,7 +126,7 @@ img {
   bottom: 0;
   left: 0;
   z-index: 100;
-  background-color: hsl(220deg, 60%, 99%);
+  background-color: hsl(220, 60%, 99%);
 }
 
 .nav {
@@ -141,12 +141,12 @@ img {
 
 .nav__logo,
 .nav__toggle {
-  color: hsl(220deg, 8%, 15%);
+  color: hsl(220, 8%, 15%);
   font-weight: 500;
 }
 
 .nav__logo:hover {
-  color: hsl(220deg, 69%, 61%);
+  color: hsl(220, 69%, 61%);
 }
 
 .nav__toggle {
@@ -154,7 +154,7 @@ img {
   cursor: pointer;
 }
 .nav__toggle .toggle:hover {
-  color: hsl(220deg, 69%, 61%);
+  color: hsl(220, 69%, 61%);
 }
 .nav__toggle .icon__apps {
   margin-left: 3rem;
@@ -170,11 +170,11 @@ img {
   flex-direction: column;
   align-items: center;
   font-size: 0.813rem;
-  color: hsl(220deg, 8%, 15%);
+  color: hsl(220, 8%, 15%);
   font-weight: 500;
 }
 .nav__link:hover {
-  color: hsl(220deg, 69%, 61%);
+  color: hsl(220, 69%, 61%);
 }
 
 .nav__icon {
@@ -190,31 +190,31 @@ img {
 .color:hover {
   cursor: pointer;
   border: 1.5px solid black;
-  color: hsl(220deg, 8%, 15%);
+  color: hsl(220, 8%, 15%);
 }
 
 .bleu {
-  background-color: hsl(250deg, 69%, 61%);
+  background-color: hsl(250, 69%, 61%);
 }
 
 .rouge {
-  background-color: hsl(0deg, 69%, 61%);
+  background-color: hsl(0, 69%, 61%);
 }
 
 .orange {
-  background-color: hsl(26deg, 69%, 61%);
+  background-color: hsl(26, 69%, 61%);
 }
 
 .jaune {
-  background-color: hsl(52deg, 69%, 61%);
+  background-color: hsl(52, 69%, 61%);
 }
 
 .vert {
-  background-color: hsl(140deg, 69%, 61%);
+  background-color: hsl(140, 69%, 61%);
 }
 
 .violet {
-  background-color: hsl(312deg, 69%, 61%);
+  background-color: hsl(312, 69%, 61%);
 }
 
 .nav__close {
@@ -223,10 +223,10 @@ img {
   bottom: 0.8rem;
   font-size: 1.5rem;
   cursor: pointer;
-  color: hsl(220deg, 69%, 61%);
+  color: hsl(220, 69%, 61%);
 }
 .nav__close:hover {
-  color: hsl(220deg, 57%, 53%);
+  color: hsl(220, 57%, 53%);
 }
 
 @media screen and (max-width: 767px) {
@@ -235,7 +235,7 @@ img {
     bottom: -100%;
     left: 0;
     width: 100%;
-    background-color: hsl(220deg, 60%, 99%);
+    background-color: hsl(220, 60%, 99%);
     padding: 2rem 1.5rem 4rem;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
     border-radius: 1.5rem;
@@ -258,7 +258,6 @@ img {
 }
 .home__content .home__social {
   display: grid;
-  grid-template-columns: -webkit-max-content;
   grid-template-columns: max-content;
   row-gap: 1rem;
 }
@@ -267,24 +266,24 @@ img {
   justify-self: center;
   width: 0.2rem;
   height: 5rem;
-  background-color: hsl(220deg, 69%, 61%);
+  background-color: hsl(220, 69%, 61%);
 }
 .home__content .home__social::after {
   content: "";
   justify-self: center;
   width: 0.2rem;
   height: 5rem;
-  background-color: hsl(220deg, 69%, 61%);
+  background-color: hsl(220, 69%, 61%);
 }
 .home__content .home__social-icon {
   font-size: 1.25rem;
-  color: hsl(220deg, 69%, 61%);
+  color: hsl(220, 69%, 61%);
 }
 .home__content .home__social-icon:hover {
-  color: hsl(220deg, 57%, 53%);
+  color: hsl(220, 57%, 53%);
 }
 .home__content .home__image {
-  background: hsl(220deg, 69%, 61%);
+  background: hsl(220, 69%, 61%);
   width: 55%;
   justify-self: center;
   border-radius: 25% 25% 0 0;
@@ -301,7 +300,6 @@ img {
 
 @media screen and (min-width: 568px) {
   .home__content {
-    grid-template-columns: -webkit-max-content 1fr 1fr;
     grid-template-columns: max-content 1fr 1fr;
   }
   .home__content .home__data {
@@ -337,7 +335,7 @@ img {
 .about__info-title {
   font-size: 1.25rem;
   font-weight: 600;
-  color: hsl(220deg, 8%, 15%);
+  color: hsl(220, 8%, 15%);
 }
 .about__info-name, .about__info-title {
   display: block;
@@ -364,7 +362,7 @@ img {
 .skills__container .skills__content .skills__header .skills__icon,
 .skills__container .skills__content .skills__header .skills__arrow {
   font-size: 2rem;
-  color: hsl(220deg, 69%, 61%);
+  color: hsl(220, 69%, 61%);
 }
 .skills__container .skills__content .skills__header .skills__icon {
   margin-right: 0.75rem;
@@ -398,13 +396,13 @@ img {
 .skills__container .skills__content .skills__list .skills__data .skills__bar {
   height: 5px;
   border-radius: 0.25rem;
-  background-color: hsl(220deg, 69%, 61%);
+  background-color: hsl(220, 69%, 61%);
 }
 .skills__container .skills__content .skills__list .skills__data .skills__bar .skills__percentage {
   height: 5px;
   border-radius: 0.25rem;
   display: block;
-  background-color: hsl(220deg, 69%, 61%);
+  background-color: hsl(220, 69%, 61%);
 }
 .skills__container .skills__close .skills__list {
   height: 0;
@@ -417,7 +415,6 @@ img {
   overflow: hidden;
 }
 .skills__container .skills__open .skills__list {
-  height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
   margin-bottom: 2.5rem;
@@ -438,7 +435,7 @@ img {
   cursor: pointer;
 }
 .qualification__tabs .qualification__button:hover {
-  color: hsl(220deg, 69%, 61%);
+  color: hsl(220, 69%, 61%);
 }
 .qualification__tabs .qualification__button .qualification__icon {
   font-size: 1.8rem;
@@ -447,7 +444,6 @@ img {
 
 .qualification__data {
   display: grid;
-  grid-template-columns: 1fr -webkit-max-content 1fr;
   grid-template-columns: 1fr max-content 1fr;
   gap: 1rem;
 }
@@ -463,7 +459,7 @@ img {
 }
 .qualification__data .qualification__calendar {
   font-size: 0.813rem;
-  color: hsl(220deg, 8%, 65%);
+  color: hsl(220, 8%, 65%);
   margin-bottom: 1rem;
 }
 .qualification__data .qualification__calendar-icon {
@@ -478,7 +474,7 @@ img {
   display: inline-block;
   width: 13px;
   height: 13px;
-  background-color: hsl(220deg, 69%, 61%);
+  background-color: hsl(220, 69%, 61%);
   border-radius: 50%;
 }
 
@@ -486,12 +482,12 @@ img {
   display: block;
   width: 1px;
   height: 100%;
-  background-color: hsl(220deg, 69%, 61%);
+  background-color: hsl(220, 69%, 61%);
   transform: translate(6px, -7px);
 }
 
 .qualification__active {
-  color: hsl(220deg, 69%, 61%);
+  color: hsl(220, 69%, 61%);
 }
 
 .section__portfolio__title {
@@ -511,12 +507,17 @@ img {
 .portfolio__container .portfolio__content {
   padding: 0 1.5rem;
 }
-.portfolio__container .portfolio__content .portfolio__img {
+.portfolio__container .portfolio__content .portfolio__img,
+.portfolio__container .portfolio__content .none-obj {
   border-radius: 0.5rem;
   justify-self: center;
   height: 200px;
   -o-object-fit: cover;
      object-fit: cover;
+}
+.portfolio__container .portfolio__content .none-obj {
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 .portfolio__container .portfolio__content .portfolio__title {
   font-size: 1.125rem;
@@ -533,19 +534,19 @@ img {
 }
 
 .swiper-pagination-bullet {
-  background-color: hsl(220deg, 69%, 61%) !important;
+  background-color: hsl(220, 69%, 61%) !important;
   width: 10px !important;
   height: 10px !important;
 }
 
 .swiper-pagination-bullet-active {
-  background-color: hsl(220deg, 69%, 61%) !important;
+  background-color: hsl(220, 69%, 61%) !important;
 }
 
 .swiper-button-next {
   height: 5vh;
   width: 5vh;
-  color: hsl(220deg, 69%, 61%);
+  color: hsl(220, 69%, 61%);
   position: absolute;
   top: 40%;
   right: 0;
@@ -562,7 +563,7 @@ img {
 .swiper-button-prev {
   height: 5vh;
   width: 5vh;
-  color: hsl(220deg, 69%, 61%);
+  color: hsl(220, 69%, 61%);
   position: absolute;
   z-index: 2;
   top: 40%;
@@ -584,7 +585,7 @@ img {
 }
 .contact__container .contact__information .contact__icon {
   font-size: 2rem;
-  color: hsl(220deg, 69%, 61%);
+  color: hsl(220, 69%, 61%);
   margin-right: 0.75rem;
 }
 .contact__container .contact__information .contact__title {
@@ -592,26 +593,26 @@ img {
   font-weight: 500;
 }
 .contact__container .contact__information .contact__subtitle {
-  color: hsl(220deg, 8%, 65%);
+  color: hsl(220, 8%, 65%);
   font-size: 0.813rem;
 }
 .contact__container .contact__input {
   width: 100%;
-  background-color: hsl(220deg, 70%, 96%);
-  color: hsl(220deg, 8%, 45%);
+  background-color: hsl(220, 70%, 96%);
+  color: hsl(220, 8%, 45%);
   font-size: 0.938rem;
   border: none;
   outline: none;
   padding: 0.25rem 0.5rem 0.5rem 0;
 }
 .contact__container .contact__content {
-  background-color: hsl(220deg, 70%, 96%);
+  background-color: hsl(220, 70%, 96%);
   border-radius: 0.5rem;
   padding: 0.75rem 1rem 0.25rem;
 }
 .contact__container .contact__label {
   font-size: 0.813rem;
-  color: hsl(220deg, 8%, 15%);
+  color: hsl(220, 8%, 15%);
 }
 .contact__container .send__message {
   border: none;
@@ -619,7 +620,7 @@ img {
 }
 
 footer .footer__bg {
-  background-color: hsl(220deg, 69%, 61%);
+  background-color: hsl(220, 69%, 61%);
   padding: 2rem 0 3rem;
 }
 footer .footer__bg .footer__container {
@@ -638,14 +639,14 @@ footer .footer__bg .footer__container .footer__links {
   row-gap: 1.5rem;
 }
 footer .footer__bg .footer__container .footer__links .footer__link:hover {
-  color: hsl(220deg, 92%, 85%);
+  color: hsl(220, 92%, 85%);
 }
 footer .footer__bg .footer__container .footer__social {
   font-size: 1.25rem;
   margin-right: 1.5rem;
 }
 footer .footer__bg .footer__container .footer__social:hover {
-  color: hsl(220deg, 92%, 85%);
+  color: hsl(220, 92%, 85%);
 }
 footer .footer__title,
 footer .footer__subtitle,
@@ -655,11 +656,11 @@ footer .footer__social {
 }
 
 .header.dark {
-  background-color: hsl(220deg, 28%, 12%);
+  background-color: hsl(220, 28%, 12%);
 }
 
 .show__menu.dark {
-  background-color: hsl(220deg, 28%, 12%);
+  background-color: hsl(220, 28%, 12%);
   box-shadow: 0 1px 4px rgba(255, 255, 255, 0.15);
 }
 
@@ -669,7 +670,7 @@ footer .footer__social {
 
 .nav__logo.dark,
 .nav__toggle.dark {
-  color: hsl(220deg, 8%, 95%);
+  color: hsl(220, 8%, 95%);
 }
 
 .toggle.button__icon.dark {
@@ -677,47 +678,47 @@ footer .footer__social {
 }
 
 .nav__link.dark {
-  color: hsl(220deg, 8%, 95%);
+  color: hsl(220, 8%, 95%);
 }
 .nav__link.dark:hover {
-  color: hsl(220deg, 69%, 61%);
+  color: hsl(220, 69%, 61%);
 }
 
 .about__info-title.dark {
-  color: hsl(220deg, 8%, 95%);
+  color: hsl(220, 8%, 95%);
 }
 
 .skills__title.dark {
-  color: hsl(220deg, 8%, 95%);
+  color: hsl(220, 8%, 95%);
 }
 
 .skills__name.dark {
-  color: hsl(220deg, 8%, 75%);
+  color: hsl(220, 8%, 75%);
 }
 
 .qualification__title.dark {
-  color: hsl(220deg, 8%, 95%);
+  color: hsl(220, 8%, 95%);
 }
 
 .portfolio__title.dark {
-  color: hsl(220deg, 8%, 95%);
+  color: hsl(220, 8%, 95%);
 }
 
 .contact__title.dark {
-  color: hsl(220deg, 8%, 95%);
+  color: hsl(220, 8%, 95%);
 }
 
 .contact__input.dark,
 .contact__content.dark {
-  background-color: hsl(220deg, 29%, 16%);
+  background-color: hsl(220, 29%, 16%);
 }
 
 .contact__label.dark {
-  color: hsl(220deg, 8%, 75%);
+  color: hsl(220, 8%, 75%);
 }
 
 .footer__bg.dark {
-  background-color: hsl(220deg, 29%, 16%);
+  background-color: hsl(220, 29%, 16%);
 }
 
 @media screen and (max-width: 350px) {
@@ -744,10 +745,10 @@ footer .footer__social {
 }
 @media screen and (min-width: 568px) {
   .skills__container,
-.about__container,
-.portfolio__content,
-.contact__container,
-.footer__container {
+  .about__container,
+  .portfolio__content,
+  .contact__container,
+  .footer__container {
     grid-template-columns: repeat(2, 1fr);
   }
   .portfolio__content {
@@ -776,7 +777,7 @@ footer .footer__social {
     margin-bottom: 4rem;
   }
   .section__portfolio__title,
-.section__portfolio__title {
+  .section__portfolio__title {
     margin-bottom: 1rem;
   }
   .header {
@@ -792,9 +793,9 @@ footer .footer__social {
          column-gap: 1rem;
   }
   .nav__icon,
-.nav__home,
-.nav__close,
-.icon__apps {
+  .nav__home,
+  .nav__close,
+  .icon__apps {
     display: none;
   }
   .nav__list {

@@ -13,11 +13,16 @@
     .portfolio__content{
         padding: 0 1.5rem;
 
-        .portfolio__img{
+        .portfolio__img,
+        .none-obj{
             border-radius: 0.5rem;
             justify-self: center;
             height: 200px; 
             object-fit: cover;       
+        }
+
+        .none-obj{
+            object-fit: contain;
         }
 
         .portfolio__title{

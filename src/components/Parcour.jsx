@@ -108,6 +108,23 @@ const Qualifications = () => {
             <>
             {/* expériences */}
             <div className="qualification__content">
+
+            <div className="qualification__data text__right">
+                <div>
+                  <h3 className={theme ? 'qualification__title' : 'qualification__title dark'}>Stage LP Développeur Full Stack</h3>
+                  <p className='qualification__subtitle'>Antadis, agence e-commerce, La Rochelle<br></br><br></br>Développement de modules "legacy" & "modern" Prestashop utilisant le Framework Symfony.</p>
+                  <div className="qualification__calendar">
+                    <FontAwesomeIcon icon={faCalendar} className='qualification__calendar-icon'/>
+                    Avril - Juillet 2022
+                  </div>
+                </div>
+                
+                <div>
+                  <span className='qualification__rounder'></span>
+                  <span className='qualification__line'></span>
+                </div>
+              </div>
+
               <div className="qualification__data">
                 <div></div>
                 <div>
@@ -116,7 +133,7 @@ const Qualifications = () => {
                 </div>
                 <div>
                   <h3 className={theme ? 'qualification__title' : 'qualification__title dark'}>Projets TUT Licence pro</h3>
-                  <p className='qualification__subtitle'>Agence Web Truc&Pic,<br></br>Projets : Be-boosted et CampusInnov</p>
+                  <p className='qualification__subtitle'>Agence Web Truc&Pic,<br></br>Projets : Be-boosted et CampusInnov<br></br><br></br>Voir portfolio</p>
                   <div className="qualification__calendar">
                     <FontAwesomeIcon icon={faCalendar}  className='qualification__calendar-icon'/>
                     Sept 2022- Avril 2023
